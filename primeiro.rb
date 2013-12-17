@@ -1,4 +1,4 @@
-class modo
+class Modo
 	def initialize(p1)
 		@p1 = p1
 	end
@@ -16,3 +16,5 @@ class modo
 	end
 
 end
+
+puts "ola " + Modo.new("Eduardo").p1
